@@ -2,8 +2,8 @@
   <nav class="pagination">
     {{
       paginator({
-        prev_text: '<i class="fa fa-angle-left"></i>',
-        next_text: '<i class="fa fa-angle-right"></i>',
+        prev_text: '< first page',
+        next_text: '> last page',
         mid_size: 1
       })
     }}
